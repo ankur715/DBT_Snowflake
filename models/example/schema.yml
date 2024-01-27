@@ -19,3 +19,12 @@ models:
             tests:
                 - unique
                 - not_null
+
+    - name: analytics_model
+      description: "Analytics dbt model"
+      columns:
+          - name: test
+            description: "Test key for this table"
+            tests:
+                - unique
+                - not_null
